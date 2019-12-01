@@ -141,6 +141,8 @@ body, h1, h6, p {
   font-family: serif;
   font-size: 12px;
   column-count: 3;
+  column-gap: 16px;
+  overflow: hidden;
 }
 
 .p-multi > p {
