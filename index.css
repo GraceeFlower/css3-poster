@@ -5,7 +5,7 @@ body, h1, p {
 
 .poster {
   width: 770px;
-  height: 790px;
+  height: 920px;
   margin: 20px auto;
   padding: 40px 60px;
   background: linear-gradient(to left top, #ee7752cf, #e73c7ecf, #23a6d5cf, #23d5abcf);
@@ -51,19 +51,29 @@ body, h1, p {
 .p-layout {
   display: flex;
   justify-content: space-between;
+  margin-top: 90px;
 }
 
 .flexbox {
-  width: 222px;
-  height: 150px;
+  width: 214px;
+  height: 142px;
   padding: 8px;
   background-color: #fff;
 }
 
-.first-flex {
-  background-image: url(./static/image/empire-state.png);
-  background-size: contain;
-  /* z-index: 99; */
+.p-multi {
+  width: 398px;
+  height: 108px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px 15px;
+  background-color: #fff;
+  font-size: 12px;
+  column-count: 3;
+}
+
+.p-multi > p {
+  margin-bottom: 6px;
 }
 
 
