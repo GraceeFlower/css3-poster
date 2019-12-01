@@ -73,7 +73,13 @@ body, h1, h6, p {
   background-image: url(./static/image/liberty.png);
 }
 
+.flexbox:hover .detail{
+  display: block;
+  cursor: pointer;
+}
+
 .detail {
+  display: none;
   width: 184px;
   height: 112px;
   padding: 15px;
