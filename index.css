@@ -48,3 +48,22 @@ body, h1, p {
   background: linear-gradient(to left bottom, transparent 50%, #dfdfdf, #ababab );
 }
 
+.p-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexbox {
+  width: 222px;
+  height: 150px;
+  padding: 8px;
+  background-color: #fff;
+}
+
+.first-flex {
+  background-image: url(./static/image/empire-state.png);
+  background-size: contain;
+  /* z-index: 99; */
+}
+
+
