@@ -57,9 +57,27 @@ body, h1, p {
 .flexbox {
   width: 214px;
   height: 142px;
-  padding: 8px;
-  background-color: #fff;
+  border: 8px solid #fff;
+  background-size: contain;
 }
+
+.first-flex {
+  background-image: url(./static/image/empire-state.png);
+}
+
+.second-flex {
+  background-image: url(./static/image/midtown.png);
+}
+
+.third-flex {
+  background-image: url(./static/image/liberty.png);
+}
+
+/* .detail {
+  width: 214px;
+  height: 142px;
+  background-color: tomato;
+} */
 
 .p-multi {
   position: relative;
