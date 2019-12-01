@@ -1,4 +1,4 @@
-body {
+body, h1 {
   margin: 0;
   padding: 0;
 }
@@ -10,3 +10,17 @@ body {
   padding: 40px 60px;
   background: linear-gradient(to left top, #ee7752cf, #e73c7ecf, #23a6d5cf, #23d5abcf);
 }
+
+.p-title {
+  height: 220px;
+  width: 100%;
+  line-height: 220px;
+  text-align: center;
+  font-size: 33px;
+  color: #fff;
+  text-shadow: 0 3px #000, 0 5px #000,
+               0 7px #000, 0 9px #000,
+               0 12px 13px #000;
+  letter-spacing: 5px;
+}
+
