@@ -1,4 +1,4 @@
-body, h1 {
+body, h1, p {
   margin: 0;
   padding: 0;
 }
@@ -12,15 +12,26 @@ body, h1 {
 }
 
 .p-title {
-  height: 220px;
+  height: 200px;
   width: 100%;
-  line-height: 220px;
+  line-height: 200px;
   text-align: center;
   font-size: 33px;
   color: #fff;
+  letter-spacing: 5px;
   text-shadow: 0 3px #000, 0 5px #000,
                0 7px #000, 0 9px #000,
                0 12px 13px #000;
-  letter-spacing: 5px;
+} 
+
+.p-font {
+  height: 95px;
+  width: 360px;
+  line-height: 25px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  font-size: 16.5px;
+  color: #3d821b;
+  background-color: #fff;
 }
 
