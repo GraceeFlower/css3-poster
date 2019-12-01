@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.poster {
+  width: 770px;
+  height: 790px;
+  margin: 20px auto;
+  padding: 40px 60px;
+  background: linear-gradient(to left top, #ee7752cf, #e73c7ecf, #23a6d5cf, #23d5abcf);
+}
