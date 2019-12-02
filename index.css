@@ -8,6 +8,7 @@ body, h1, h6, p {
   height: 840px;
   margin: 20px auto;
   padding: 40px 60px;
+  border-radius: 6px;
   background: linear-gradient(to left top, #ee7752cf, #e73c7ecf, #23a6d5cf, #23d5abcf);
 }
 
