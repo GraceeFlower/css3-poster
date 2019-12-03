@@ -60,6 +60,7 @@ body, h1, h6, p {
   height: 142px;
   border: 8px solid #fff;
   background-size: contain;
+  overflow: hidden;
 }
 
 .first-flex {
@@ -80,15 +81,26 @@ body, h1, h6, p {
 }
 
 .detail {
+  position: relative;
   display: none;
   width: 184px;
   height: 112px;
   padding: 15px;
-  background-color: tomato;
   color: #fff;
   text-align: center;
   font-size: 12px;
   font-family: serif;
+}
+
+.detail-bkg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -65px;
+  left: -55px;
+  transform: rotate(41deg);
+  background-color: rgba(0, 0, 0, .4);
+  z-index: -1;
 }
 
 .d-title {
@@ -124,7 +136,7 @@ body, h1, h6, p {
 }
 
 .second-detail {
-  background-color: rgba(0, 0, 0, .3);
+  z-index: 99;
 }
 
 .third-detail {
