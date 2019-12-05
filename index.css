@@ -35,7 +35,8 @@ body, h1, h6, p {
   border-radius: 4px;
   font-size: 17px;
   color: #3d821b;
-  background: #fff linear-gradient(-135deg, transparent 16px, #fff 0);
+  background-color: #fff;
+  background: linear-gradient(-135deg, transparent 16px, #fff 0);
 }
 
 .font-practice::before {
@@ -66,11 +67,11 @@ body, h1, h6, p {
   background-image: url(./static/image/empire-state.png);
 }
 
-.midtown-flex {
+.midtown {
   background-image: url(./static/image/midtown.png);
 }
 
-.newyork-flex {
+.newyork {
   background-image: url(./static/image/liberty.png);
 }
 
