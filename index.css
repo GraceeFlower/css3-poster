@@ -12,7 +12,7 @@ body, h1, h6, p {
   background: linear-gradient(to left top, #ee7752cf, #e73c7ecf, #23a6d5cf, #23d5abcf);
 }
 
-.shadow-practice {
+.poster-title {
   height: 200px;
   width: 100%;
   line-height: 200px;
@@ -25,7 +25,7 @@ body, h1, h6, p {
                0 12px 13px #000;
 } 
 
-.font-practice {
+.proverb {
   position: relative;
   height: 95px;
   width: 385px;
@@ -39,7 +39,7 @@ body, h1, h6, p {
   background: linear-gradient(-135deg, transparent 16px, #fff 0);
 }
 
-.font-practice::before {
+.proverb::before {
   content: "";
   position: absolute;
   top: 0;
@@ -49,13 +49,13 @@ body, h1, h6, p {
   background: linear-gradient(to left bottom, transparent 50%, #dfdfdf, #ababab );
 }
 
-.layout-practice {
+.gallery {
   display: flex;
   justify-content: space-between;
   margin-top: 85px;
 }
 
-.layout-box {
+.showcase {
   width: 214px;
   height: 142px;
   border: 8px solid #fff;
@@ -75,12 +75,12 @@ body, h1, h6, p {
   background-image: url(./static/image/liberty.png);
 }
 
-.layout-box:hover .detail{
+.showcase:hover .abstract{
   display: block;
   cursor: pointer;
 }
 
-.detail {
+.abstract {
   position: relative;
   display: none;
   width: 184px;
@@ -92,7 +92,7 @@ body, h1, h6, p {
   font-family: serif;
 }
 
-.detail-bkg {
+.abstract-bkg {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -103,18 +103,18 @@ body, h1, h6, p {
   z-index: -1;
 }
 
-.detail-title {
+.abstract-title {
   padding: 6px;
 }
 
-.detail-line {
+.abstract-line {
   width: 150px;
   margin: 0 auto;
   font-weight: lighter;
   border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
-.detail > a {
+.abstract > a {
   display: inline-block;
   margin: 7px auto;
   width: 80px;
@@ -125,19 +125,19 @@ body, h1, h6, p {
   background-color: #000;
 }
 
- .newyork-detail > p, .newyork-detail > h6 {
+ .newyork-abstract > p, .newyork-abstract > h6 {
   color: #000;
 }
 
-.empire-state-detail {
+.empire-state-abstract {
   background-color: rgba(58, 1, 132, 0.44);
 }
 
-.midtown-detail {
+.midtown-abstract {
   z-index: 99;
 }
 
-.newyork-detail {
+.newyork-abstract {
   background-color: #FFF8E8;
 }
 
