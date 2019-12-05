@@ -15,11 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-yinhao:before {
+.icon-left-quotation:before {
   content: "\e654";
 }
 
-.icon-quotation:before {
+.icon-right-quotation:before {
   content: "\e615";
 }
 

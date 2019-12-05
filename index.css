@@ -12,7 +12,7 @@ body, h1, h6, p {
   background: linear-gradient(to left top, #ee7752cf, #e73c7ecf, #23a6d5cf, #23d5abcf);
 }
 
-.p-title {
+.shadow-practice {
   height: 200px;
   width: 100%;
   line-height: 200px;
@@ -25,7 +25,7 @@ body, h1, h6, p {
                0 12px 13px #000;
 } 
 
-.p-font {
+.font-practice {
   position: relative;
   height: 95px;
   width: 385px;
@@ -39,7 +39,7 @@ body, h1, h6, p {
   background: linear-gradient(-135deg, transparent 16px, #fff 0);
 }
 
-.p-font::before {
+.font-practice::before {
   content: "";
   position: absolute;
   top: 0;
@@ -49,13 +49,13 @@ body, h1, h6, p {
   background: linear-gradient(to left bottom, transparent 50%, #dfdfdf, #ababab );
 }
 
-.p-layout {
+.layout-practice {
   display: flex;
   justify-content: space-between;
   margin-top: 85px;
 }
 
-.flexbox {
+.layout-box {
   width: 214px;
   height: 142px;
   border: 8px solid #fff;
@@ -63,19 +63,19 @@ body, h1, h6, p {
   overflow: hidden;
 }
 
-.first-flex {
+.empire-state {
   background-image: url(./static/image/empire-state.png);
 }
 
-.second-flex {
+.midtown-flex {
   background-image: url(./static/image/midtown.png);
 }
 
-.third-flex {
+.newyork-flex {
   background-image: url(./static/image/liberty.png);
 }
 
-.flexbox:hover .detail{
+.layout-box:hover .detail{
   display: block;
   cursor: pointer;
 }
@@ -103,18 +103,18 @@ body, h1, h6, p {
   z-index: -1;
 }
 
-.d-title {
+.detail-title {
   padding: 6px;
 }
 
-.d-line {
+.detail-line {
   width: 150px;
   margin: 0 auto;
   font-weight: lighter;
   border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
-.d-link {
+.detail-link {
   width: 80px;
   height: 25px;
   line-height: 25px;
@@ -122,28 +122,28 @@ body, h1, h6, p {
   background-color: #000;
 }
 
-.d-link > a {
+.detail-link > a {
   text-decoration: none;
   color: #fff;
 }
 
- .third-detail > p, .third-detail > h6 {
+ .newyork-detail > p, .newyork-detail > h6 {
   color: #000;
 }
 
-.first-detail {
+.empire-state-detail {
   background-color: rgba(58, 1, 132, 0.44);
 }
 
-.second-detail {
+.midtown-detail {
   z-index: 99;
 }
 
-.third-detail {
+.newyork-detail {
   background-color: #FFF8E8;
 }
 
-.p-multi {
+.multicolumn-practice {
   position: relative;
   width: 398px;
   height: 108px;
@@ -158,11 +158,11 @@ body, h1, h6, p {
   word-break: break-all;
 }
 
-.p-multi > p {
+.multicolumn-practice > p {
   margin-bottom: 6px;
 }
 
-.p-multi::before {
+.multicolumn-practice::before {
   content: "";
   position: absolute;
   top: -32px;
